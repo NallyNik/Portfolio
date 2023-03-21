@@ -1,1 +1,76 @@
 @import url(./global.css);
+
+header {
+    width: 50%;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0 0 1rem 1rem;
+    text-align: center;
+}
+main {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    background-color: white;
+    border-radius: 1rem;
+}
+.me {
+    display: flex;
+    gap: 2rem;
+}
+.photo {
+    width: 6rem;
+    height: 6rem;
+
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 3px solid white;
+    box-shadow: 0 0 25px;
+}
+.printscreen {
+    display: flex;
+    gap: 1rem;
+}
+img {
+    height: 6rem;
+}
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tech ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+li {
+    font-size: 2rem;
+
+    color: hsl(0, 100%, 27%);
+}
+footer {
+    width: 50%;
+    padding: 2rem;
+
+    background-color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+.contact {
+    display: flex;
+    gap: 1rem;
+}
+.social-media {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
